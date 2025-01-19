@@ -5,7 +5,7 @@
 
 A data-driven project to optimize bank telemarketing campaigns.
 
-	Authors:
+Authors:
 • Rupal Jha • Jyoti Bhardwaj
 Date: January 18, 2025
 
@@ -13,12 +13,12 @@ Date: January 18, 2025
 
 Predict if a customer will subscribe to a term deposit (Yes/No) based on their demographic, contact, and past campaign performance data. This helps optimize telemarketing efforts, improve conversion rates, and reduce costs.
 
-### 📂 Dataset Overview
+###📂 Dataset Overview
 	•	Source: Marketing campaigns of a Portuguese bank.
 	•	Train Data: 40,000 rows, 17 columns.
 	•	Test Data: 5,211 rows, 16 columns.
 
-### Key Features
+###Key Features
 	1.	Client Information:
 Age, job, marital status, education, loan status, and account balance.
 	2.	Contact Details:

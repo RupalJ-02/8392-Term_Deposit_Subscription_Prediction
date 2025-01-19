@@ -92,9 +92,9 @@ pip install -r requirements.txt
 
 ⚙️ Usage
 - Run the Jupyter Notebook or Python script for:
--- Data preprocessing
--- Model training
--- Evaluation and visualization
+- Data preprocessing
+- Model training
+- Evaluation and visualization
 - Evaluate model outputs for actionable insights.
 
 ### 👥 Acknowledgments

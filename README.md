@@ -62,9 +62,9 @@ Identify customers most likely to subscribe (Yes) to reduce inefficiencies in te
 	•	Recall (Yes class): 6%
 
 ### 📊 Key Visualizations
-	1.	Distribution of the subscription variable (Yes/No).
-	2.	Subscription rates by job and education levels.
-	3.	Impact of previous outcomes (poutcome) on subscription likelihood.
+1.	Distribution of the subscription variable (Yes/No).
+2.	Subscription rates by job and education levels.
+3.	Impact of previous outcomes (poutcome) on subscription likelihood.
 
 ### 💡 Business Impact
 	1.	Better Targeting: Focus on customers with higher balances and successful past campaign outcomes.
@@ -72,30 +72,30 @@ Identify customers most likely to subscribe (Yes) to reduce inefficiencies in te
 	3.	Improved Efficiency: Optimize call durations to maximize engagement.
 
 ### 🔧 Future Scope
-	1.	Class Imbalance Handling:
+1. Class Imbalance Handling:
 Techniques like oversampling, undersampling, or cost-sensitive learning to improve recall.
-	2.	Enhanced Features:
+2. Enhanced Features:
 Introduce or transform features to improve classification performance.
-	3.	Model Experimentation:
+3. Model Experimentation:
 Explore advanced models and fine-tune hyperparameters.
 
 ### 📦 Installation
-	1.	Clone the repository:
+1.	Clone the repository:
 
 git clone <repository-url>
 cd <repository-folder>
 
 
-	2.	Install dependencies:
+2.	Install dependencies:
 
 pip install -r requirements.txt
 
 ⚙️ Usage
-	1.	Run the Jupyter Notebook or Python script for:
-	•	Data preprocessing
-	•	Model training
-	•	Evaluation and visualization
-	2.	Evaluate model outputs for actionable insights.
+- Run the Jupyter Notebook or Python script for:
+-- Data preprocessing
+-- Model training
+-- Evaluation and visualization
+- Evaluate model outputs for actionable insights.
 
 ### 👥 Acknowledgments
 

@@ -1,76 +1,85 @@
 # Term_Deposit_Subscription_Prediction
 
-Predicting Term Deposit Subscriptions Using Machine Learning
 
-Overview
+## 📊 Predicting Term Deposit Subscriptions Using Machine Learning
 
-This project focuses on data-driven decision-making for bank telemarketing campaigns. Using machine learning techniques, the goal is to predict whether a customer will subscribe to a term deposit (Yes/No), optimizing telemarketing efforts and enhancing marketing efficiency.
+A data-driven project to optimize bank telemarketing campaigns.
 
-Authors
-	•	Rupal Jha
-	•	Jyoti Bhardwaj
+	Authors:
+• Rupal Jha • Jyoti Bhardwaj
+Date: January 18, 2025
 
-Objective
+### 🔍 Objective
 
-Predict if a customer will subscribe to a term deposit based on their demographic, contact, and campaign data.
+Predict if a customer will subscribe to a term deposit (Yes/No) based on their demographic, contact, and past campaign performance data. This helps optimize telemarketing efforts, improve conversion rates, and reduce costs.
 
-Dataset
-	•	Source: Direct marketing campaigns of a Portuguese bank.
-	•	Training Data: 40,000 rows, 17 columns.
+### 📂 Dataset Overview
+	•	Source: Marketing campaigns of a Portuguese bank.
+	•	Train Data: 40,000 rows, 17 columns.
 	•	Test Data: 5,211 rows, 16 columns.
 
-Key Features:
-	1.	Client Data: Age, job, marital status, education, loan status, balance.
-	2.	Contact Details: Last contact type (cellular/telephone), day, month, duration.
-	3.	Campaign Performance: Number of contacts, previous outcomes (poutcome).
+### Key Features
+	1.	Client Information:
+Age, job, marital status, education, loan status, and account balance.
+	2.	Contact Details:
+Last contact type (cellular/telephone), day, month, and duration.
+	3.	Campaign Metrics:
+Number of contacts, previous outcomes (poutcome).
 
-Approach
+### 🚀 Project Workflow
 
-Workflow
-	1.	Define the Problem: Identify customers most likely to subscribe to optimize telemarketing.
-	2.	Data Cleaning and Exploration: Handling missing values and analyzing trends using Python libraries.
-	3.	Feature Engineering: Transforming categorical variables and scaling numerical data.
-	4.	Model Selection and Tuning: Tested multiple models, with Random Forest selected as the final model.
-	5.	Evaluation: Accuracy, F1-Score, and ROC-AUC were the primary metrics for evaluation.
+1. Problem Definition
 
-Key Insights from EDA
-	1.	Patterns:
-	•	Most calls were made in May and July.
-	•	Only 7.24% of customers subscribed (high class imbalance).
-	2.	Customer Trends:
+Identify customers most likely to subscribe (Yes) to reduce inefficiencies in telemarketing campaigns.
+
+2. Data Preprocessing
+	•	Handled missing values.
+	•	Performed feature engineering (e.g., one-hot encoding for categorical variables).
+	•	Scaled numerical features for uniformity.
+
+3. Exploratory Data Analysis (EDA)
+	•	Subscription Trends:
+	•	7.24% of customers subscribed (Yes).
 	•	Single customers had higher subscription rates (9.4%) compared to married ones (6.1%).
-	•	Contact via cellular led to higher subscriptions (8.96%).
+	•	Cellular contact method had a higher success rate (8.96%).
+	•	Outlier Insights:
+	•	Balance: Significant outliers above ₹3,216.
+	•	Call duration: Outliers exceeding 632 seconds.
 
-Model Performance
-	•	Final Model: Random Forest
-	•	Metrics:
+4. Model Selection
+	•	Tested Models:
+	•	Logistic Regression
+	•	Random Forest
+	•	Gradient Boosting (XGBoost, LightGBM)
+	•	Final Model Chosen: Random Forest
+	•	Balanced accuracy, interpretability, and speed.
+
+5. Evaluation Metrics
 	•	Accuracy: 93%
+	•	F1-Score (Tuned): 0.37
 	•	Precision (Yes class): 64%
 	•	Recall (Yes class): 6%
-	•	F1-Score: 0.11 (Improved to 0.37 after tuning)
-	•	ROC-AUC: 0.53
 
-Business Impact
-	1.	Improved targeting reduces marketing costs.
-	2.	Enhanced conversion rates by focusing on likely subscribers.
-	3.	Key recommendations:
-	•	Prioritize customers with successful previous outcomes and high balances.
-	•	Optimize call duration for better results.
-	•	Minimize over-contacting unresponsive customers.
+### 📊 Key Visualizations
+	1.	Distribution of the subscription variable (Yes/No).
+	2.	Subscription rates by job and education levels.
+	3.	Impact of previous outcomes (poutcome) on subscription likelihood.
 
-Future Scope
-	•	Addressing Class Imbalance: Techniques like oversampling or undersampling can improve recall.
-	•	Model Optimization: Experiment with advanced models (e.g., Gradient Boosting).
-	•	Enhanced Feature Engineering: Explore new or transformed features for better classification.
+### 💡 Business Impact
+	1.	Better Targeting: Focus on customers with higher balances and successful past campaign outcomes.
+	2.	Cost Reduction: Reduce repetitive, ineffective calls to unresponsive customers.
+	3.	Improved Efficiency: Optimize call durations to maximize engagement.
 
-Usage
+### 🔧 Future Scope
+	1.	Class Imbalance Handling:
+Techniques like oversampling, undersampling, or cost-sensitive learning to improve recall.
+	2.	Enhanced Features:
+Introduce or transform features to improve classification performance.
+	3.	Model Experimentation:
+Explore advanced models and fine-tune hyperparameters.
 
-Requirements
-	•	Python (3.8+)
-	•	Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
-
-Steps to Run:
-	1.	Clone this repository.
+### 📦 Installation
+	1.	Clone the repository:
 
 git clone <repository-url>
 cd <repository-folder>
@@ -80,9 +89,13 @@ cd <repository-folder>
 
 pip install -r requirements.txt
 
+⚙️ Usage
+	1.	Run the Jupyter Notebook or Python script for:
+	•	Data preprocessing
+	•	Model training
+	•	Evaluation and visualization
+	2.	Evaluate model outputs for actionable insights.
 
-	3.	Run the notebook/script for data preprocessing, modeling, and evaluation.
+### 👥 Acknowledgments
 
-Acknowledgments
-
-This project was inspired by bank marketing datasets available in the public domain. Special thanks to all contributors for their insights and support.
+This project uses publicly available data from Portuguese bank marketing campaigns. Special thanks to contributors and community members for their guidance.

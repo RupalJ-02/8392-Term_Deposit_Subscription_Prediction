@@ -14,16 +14,16 @@ Date: January 18, 2025
 Predict if a customer will subscribe to a term deposit (Yes/No) based on their demographic, contact, and past campaign performance data. This helps optimize telemarketing efforts, improve conversion rates, and reduce costs.
 
 ### 📂 Dataset Overview
-	•	Source: Marketing campaigns of a Portuguese bank.
-	•	Train Data: 40,000 rows, 17 columns.
-	•	Test Data: 5,211 rows, 16 columns.
+- Source: Marketing campaigns of a Portuguese bank.
+- Train Data: 40,000 rows, 17 columns.
+- Test Data: 5,211 rows, 16 columns.
 
 ### Key Features
-1.Client Information:
+- Client Information:
 Age, job, marital status, education, loan status, and account balance.
-2.Contact Details:
+- Contact Details:
 Last contact type (cellular/telephone), day, month, and duration.
-3.Campaign Metrics:
+- Campaign Metrics:
 Number of contacts, previous outcomes (poutcome).
 
 ### 🚀 Project Workflow
@@ -56,27 +56,27 @@ Identify customers most likely to subscribe (Yes) to reduce inefficiencies in te
   Balanced accuracy, interpretability, and speed.
 
 6. Evaluation Metrics
-	•	Accuracy: 93%
-	•	F1-Score (Tuned): 0.37
-	•	Precision (Yes class): 64%
-	•	Recall (Yes class): 6%
+- Accuracy: 93%
+- F1-Score (Tuned): 0.37
+- Precision (Yes class): 64%
+- Recall (Yes class): 6%
 
 ### 📊 Key Visualizations
-1.	Distribution of the subscription variable (Yes/No).
-2.	Subscription rates by job and education levels.
-3.	Impact of previous outcomes (poutcome) on subscription likelihood.
+- Distribution of the subscription variable (Yes/No).
+- Subscription rates by job and education levels.
+- Impact of previous outcomes (poutcome) on subscription likelihood.
 
 ### 💡 Business Impact
-	1.	Better Targeting: Focus on customers with higher balances and successful past campaign outcomes.
-	2.	Cost Reduction: Reduce repetitive, ineffective calls to unresponsive customers.
-	3.	Improved Efficiency: Optimize call durations to maximize engagement.
+- Better Targeting: Focus on customers with higher balances and successful past campaign outcomes.
+- Cost Reduction: Reduce repetitive, ineffective calls to unresponsive customers.
+- Improved Efficiency: Optimize call durations to maximize engagement.
 
 ### 🔧 Future Scope
-1. Class Imbalance Handling:
+- Class Imbalance Handling:
 Techniques like oversampling, undersampling, or cost-sensitive learning to improve recall.
-2. Enhanced Features:
+- Enhanced Features:
 Introduce or transform features to improve classification performance.
-3. Model Experimentation:
+- Model Experimentation:
 Explore advanced models and fine-tune hyperparameters.
 
 ### 📦 Installation

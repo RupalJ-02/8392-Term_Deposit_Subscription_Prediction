@@ -13,17 +13,17 @@ Date: January 18, 2025
 
 Predict if a customer will subscribe to a term deposit (Yes/No) based on their demographic, contact, and past campaign performance data. This helps optimize telemarketing efforts, improve conversion rates, and reduce costs.
 
-###📂 Dataset Overview
+### 📂 Dataset Overview
 	•	Source: Marketing campaigns of a Portuguese bank.
 	•	Train Data: 40,000 rows, 17 columns.
 	•	Test Data: 5,211 rows, 16 columns.
 
-###Key Features
-	1.	Client Information:
+### Key Features
+1.Client Information:
 Age, job, marital status, education, loan status, and account balance.
-	2.	Contact Details:
+2.Contact Details:
 Last contact type (cellular/telephone), day, month, and duration.
-	3.	Campaign Metrics:
+3.Campaign Metrics:
 Number of contacts, previous outcomes (poutcome).
 
 ### 🚀 Project Workflow
@@ -33,28 +33,29 @@ Number of contacts, previous outcomes (poutcome).
 Identify customers most likely to subscribe (Yes) to reduce inefficiencies in telemarketing campaigns.
 
 2. Data Preprocessing
-	•	Handled missing values.
-	•	Performed feature engineering (e.g., one-hot encoding for categorical variables).
-	•	Scaled numerical features for uniformity.
+   
+- Handled missing values.
+- Performed feature engineering (e.g., one-hot encoding for categorical variables).
+- Scaled numerical features for uniformity.
 
-3. Exploratory Data Analysis (EDA)
-	•	Subscription Trends:
-	•	7.24% of customers subscribed (Yes).
-	•	Single customers had higher subscription rates (9.4%) compared to married ones (6.1%).
-	•	Cellular contact method had a higher success rate (8.96%).
-	•	Outlier Insights:
-	•	Balance: Significant outliers above ₹3,216.
-	•	Call duration: Outliers exceeding 632 seconds.
+4. Exploratory Data Analysis (EDA)
+- Subscription Trends:
+- 7.24% of customers subscribed (Yes).
+- Single customers had higher subscription rates (9.4%) compared to married ones (6.1%).
+- Cellular contact method had a higher success rate (8.96%).
+- Outlier Insights:
+- Balance: Significant outliers above ₹3,216.
+- Call duration: Outliers exceeding 632 seconds.
 
-4. Model Selection
-	•	Tested Models:
-	•	Logistic Regression
-	•	Random Forest
-	•	Gradient Boosting (XGBoost, LightGBM)
-	•	Final Model Chosen: Random Forest
-	•	Balanced accuracy, interpretability, and speed.
+5. Model Selection
+- Tested Models:
+- Logistic Regression
+- Random Forest
+- Gradient Boosting (XGBoost, LightGBM)
+- Final Model Chosen: Random Forest
+  Balanced accuracy, interpretability, and speed.
 
-5. Evaluation Metrics
+6. Evaluation Metrics
 	•	Accuracy: 93%
 	•	F1-Score (Tuned): 0.37
 	•	Precision (Yes class): 64%
